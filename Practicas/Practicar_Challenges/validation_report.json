@@ -1,0 +1,1025 @@
+{
+  "ventas_limpio": {
+    "success": true,
+    "statistics": {
+      "evaluated": 13,
+      "successful": 13,
+      "unsuccessful": 0,
+      "success_pct": 100.0
+    },
+    "results": [
+      {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "column": "TABLE",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "column_list": [
+            "order_id",
+            "customer_id",
+            "product_name",
+            "category",
+            "price",
+            "quantity",
+            "order_date",
+            "status",
+            "customer_email",
+            "rating"
+          ]
+        },
+        "success": true,
+        "result": {
+          "observed_value": [
+            "order_id",
+            "customer_id",
+            "product_name",
+            "category",
+            "price",
+            "quantity",
+            "order_date",
+            "status",
+            "customer_email",
+            "rating"
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "column": "TABLE",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "min_value": 400,
+          "max_value": 600
+        },
+        "success": true,
+        "result": {
+          "observed_value": 500
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "order_id",
+        "kwargs": {
+          "batch_id": "ds1-da1"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "column": "order_id",
+        "kwargs": {
+          "batch_id": "ds1-da1"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "price",
+        "kwargs": {
+          "batch_id": "ds1-da1"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "price",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "min_value": 0.0,
+          "max_value": 10000.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "quantity",
+        "kwargs": {
+          "batch_id": "ds1-da1"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "quantity",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "min_value": 1.0,
+          "max_value": 50.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "order_date",
+        "kwargs": {
+          "batch_id": "ds1-da1"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "rating",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "min_value": 1.0,
+          "max_value": 5.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "status",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "value_set": [
+            "completed",
+            "pending",
+            "cancelled",
+            "shipped"
+          ]
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "category",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "value_set": [
+            "Electronics",
+            "Accessories",
+            "Peripherals"
+          ]
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "column": "customer_email",
+        "kwargs": {
+          "batch_id": "ds1-da1",
+          "regex": "^[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
+        },
+        "success": true,
+        "result": {
+          "element_count": 500,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      }
+    ]
+  },
+  "ventas_sucios": {
+    "success": false,
+    "statistics": {
+      "evaluated": 13,
+      "successful": 8,
+      "unsuccessful": 5,
+      "success_pct": 61.5
+    },
+    "results": [
+      {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "column": "TABLE",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "column_list": [
+            "order_id",
+            "customer_id",
+            "product_name",
+            "category",
+            "price",
+            "quantity",
+            "order_date",
+            "status",
+            "customer_email",
+            "rating"
+          ]
+        },
+        "success": true,
+        "result": {
+          "observed_value": [
+            "order_id",
+            "customer_id",
+            "product_name",
+            "category",
+            "price",
+            "quantity",
+            "order_date",
+            "status",
+            "customer_email",
+            "rating"
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "column": "TABLE",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "min_value": 400,
+          "max_value": 600
+        },
+        "success": true,
+        "result": {
+          "observed_value": 505
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "order_id",
+        "kwargs": {
+          "batch_id": "ds2-da2"
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "column": "order_id",
+        "kwargs": {
+          "batch_id": "ds2-da2"
+        },
+        "success": false,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 10,
+          "unexpected_percent": 1.9801980198019802,
+          "partial_unexpected_list": [
+            "ORD-00138",
+            "ORD-00189",
+            "ORD-00248",
+            "ORD-00448",
+            "ORD-00474",
+            "ORD-00138",
+            "ORD-00474",
+            "ORD-00189",
+            "ORD-00448",
+            "ORD-00248"
+          ],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 1.9801980198019802,
+          "unexpected_percent_nonmissing": 1.9801980198019802,
+          "partial_unexpected_counts": [
+            {
+              "value": "ORD-00138",
+              "count": 2
+            },
+            {
+              "value": "ORD-00189",
+              "count": 2
+            },
+            {
+              "value": "ORD-00248",
+              "count": 2
+            },
+            {
+              "value": "ORD-00448",
+              "count": 2
+            },
+            {
+              "value": "ORD-00474",
+              "count": 2
+            }
+          ],
+          "partial_unexpected_index_list": [
+            137,
+            188,
+            247,
+            447,
+            473,
+            500,
+            501,
+            502,
+            503,
+            504
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "price",
+        "kwargs": {
+          "batch_id": "ds2-da2"
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "price",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "min_value": 0.0,
+          "max_value": 10000.0
+        },
+        "success": false,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 15,
+          "unexpected_percent": 2.9702970297029703,
+          "partial_unexpected_list": [
+            -1532.39,
+            -2324.88,
+            -305.49,
+            -361.09,
+            -1608.25,
+            -2369.0,
+            -60.0,
+            -2315.04,
+            -1004.45,
+            -488.86,
+            -1110.3,
+            -1405.71,
+            -2294.52,
+            -2289.99,
+            -2203.96
+          ],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 2.9702970297029703,
+          "unexpected_percent_nonmissing": 2.9702970297029703,
+          "partial_unexpected_counts": [
+            {
+              "value": -2369.0,
+              "count": 1
+            },
+            {
+              "value": -2324.88,
+              "count": 1
+            },
+            {
+              "value": -2315.04,
+              "count": 1
+            },
+            {
+              "value": -2294.52,
+              "count": 1
+            },
+            {
+              "value": -2289.99,
+              "count": 1
+            },
+            {
+              "value": -2203.96,
+              "count": 1
+            },
+            {
+              "value": -1608.25,
+              "count": 1
+            },
+            {
+              "value": -1532.39,
+              "count": 1
+            },
+            {
+              "value": -1405.71,
+              "count": 1
+            },
+            {
+              "value": -1110.3,
+              "count": 1
+            },
+            {
+              "value": -1004.45,
+              "count": 1
+            },
+            {
+              "value": -488.86,
+              "count": 1
+            },
+            {
+              "value": -361.09,
+              "count": 1
+            },
+            {
+              "value": -305.49,
+              "count": 1
+            },
+            {
+              "value": -60.0,
+              "count": 1
+            }
+          ],
+          "partial_unexpected_index_list": [
+            30,
+            50,
+            85,
+            89,
+            114,
+            124,
+            129,
+            142,
+            158,
+            190,
+            198,
+            200,
+            331,
+            353,
+            492
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "quantity",
+        "kwargs": {
+          "batch_id": "ds2-da2"
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "quantity",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "min_value": 1.0,
+          "max_value": 50.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "order_date",
+        "kwargs": {
+          "batch_id": "ds2-da2"
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "rating",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "min_value": 1.0,
+          "max_value": 5.0
+        },
+        "success": false,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 8,
+          "unexpected_percent": 1.5841584158415842,
+          "partial_unexpected_list": [
+            99,
+            99,
+            99,
+            99,
+            99,
+            99,
+            99,
+            99
+          ],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 1.5841584158415842,
+          "unexpected_percent_nonmissing": 1.5841584158415842,
+          "partial_unexpected_counts": [
+            {
+              "value": 99,
+              "count": 8
+            }
+          ],
+          "partial_unexpected_index_list": [
+            84,
+            204,
+            239,
+            268,
+            358,
+            384,
+            412,
+            465
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "status",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "value_set": [
+            "completed",
+            "pending",
+            "cancelled",
+            "shipped"
+          ]
+        },
+        "success": true,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "category",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "value_set": [
+            "Electronics",
+            "Accessories",
+            "Peripherals"
+          ]
+        },
+        "success": false,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 10,
+          "unexpected_percent": 1.9801980198019802,
+          "partial_unexpected_list": [
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY",
+            "UNKNOWN_CATEGORY"
+          ],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 1.9801980198019802,
+          "unexpected_percent_nonmissing": 1.9801980198019802,
+          "partial_unexpected_counts": [
+            {
+              "value": "UNKNOWN_CATEGORY",
+              "count": 10
+            }
+          ],
+          "partial_unexpected_index_list": [
+            32,
+            33,
+            61,
+            126,
+            233,
+            277,
+            328,
+            333,
+            357,
+            494
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "column": "customer_email",
+        "kwargs": {
+          "batch_id": "ds2-da2",
+          "regex": "^[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
+        },
+        "success": false,
+        "result": {
+          "element_count": 505,
+          "unexpected_count": 21,
+          "unexpected_percent": 4.158415841584159,
+          "partial_unexpected_list": [
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba",
+            "email_invalido_sin_arroba"
+          ],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 4.158415841584159,
+          "unexpected_percent_nonmissing": 4.158415841584159,
+          "partial_unexpected_counts": [
+            {
+              "value": "email_invalido_sin_arroba",
+              "count": 20
+            }
+          ],
+          "partial_unexpected_index_list": [
+            22,
+            68,
+            151,
+            166,
+            195,
+            211,
+            212,
+            227,
+            239,
+            247,
+            274,
+            296,
+            307,
+            310,
+            324,
+            378,
+            393,
+            407,
+            440,
+            486
+          ]
+        }
+      }
+    ]
+  },
+  "usuarios": {
+    "success": true,
+    "statistics": {
+      "evaluated": 12,
+      "successful": 12,
+      "unsuccessful": 0,
+      "success_pct": 100.0
+    },
+    "results": [
+      {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "column": "TABLE",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 200,
+          "max_value": 400
+        },
+        "success": true,
+        "result": {
+          "observed_value": 300
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "column": "user_id",
+        "kwargs": {
+          "batch_id": "ds3-da3"
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "column": "user_id",
+        "kwargs": {
+          "batch_id": "ds3-da3"
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "age",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 18.0,
+          "max_value": 120.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_mean_to_be_between",
+        "column": "age",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 25.0,
+          "max_value": 60.0
+        },
+        "success": true,
+        "result": {
+          "observed_value": 46.88666666666666
+        }
+      },
+      {
+        "expectation_type": "expect_column_median_to_be_between",
+        "column": "age",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 20.0,
+          "max_value": 70.0
+        },
+        "success": true,
+        "result": {
+          "observed_value": 47.0
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "country",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "value_set": [
+            "México",
+            "Colombia",
+            "España",
+            "Argentina",
+            "Chile"
+          ]
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "column": "plan",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "value_set": [
+            "free",
+            "basic",
+            "pro",
+            "enterprise"
+          ]
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "column": "plan",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 0.0,
+          "max_value": 0.5
+        },
+        "success": true,
+        "result": {
+          "observed_value": 0.013333333333333334
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "monthly_spend",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 0.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      },
+      {
+        "expectation_type": "expect_column_stdev_to_be_between",
+        "column": "monthly_spend",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 0.0,
+          "max_value": 500.0
+        },
+        "success": true,
+        "result": {
+          "observed_value": 50.22653668353976
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "column": "nps_score",
+        "kwargs": {
+          "batch_id": "ds3-da3",
+          "min_value": 0.0,
+          "max_value": 10.0
+        },
+        "success": true,
+        "result": {
+          "element_count": 300,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0,
+          "partial_unexpected_list": [],
+          "missing_count": 0,
+          "missing_percent": 0.0,
+          "unexpected_percent_total": 0.0,
+          "unexpected_percent_nonmissing": 0.0,
+          "partial_unexpected_counts": [],
+          "partial_unexpected_index_list": []
+        }
+      }
+    ]
+  }
+}

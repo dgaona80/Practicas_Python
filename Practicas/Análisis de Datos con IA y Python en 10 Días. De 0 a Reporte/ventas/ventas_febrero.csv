@@ -1,0 +1,16 @@
+Id_orden,Id_cliente,nombre_cliente,email,departamento,producto,subproducto,cantidad,precio,fecha
+2001,C011,Francisco Díaz,francisco.d@email.com,CDMX,Laptop,ASUS VivoBook,1,11999.99,2024-02-01
+2002,C012,Elena Ruiz,elena.ruiz@email.com,Jalisco,Monitor,BenQ EW2880U,3,2999.99,2024-02-02
+2003,C013,Javier López,javier.l@email.com,Monterrey,Teclado,SteelSeries Apex,2,1899.99,2024-02-03
+2004,C014,Beatriz García,beatriz.g@email.com,Guadalajara,Mouse,Corsair Dark Core,1,1199.99,2024-02-04
+2005,C015,Enrique Morales,enrique.m@email.com,Querétaro,Laptop,Acer Aspire,1,8999.99,2024-02-05
+2006,C016,Gloria Salazar,gloria.s@email.com,Puebla,Headphones,JBL Tune 750,1,2499.99,2024-02-06
+2007,C011,Francisco Díaz,francisco.d@email.com,CDMX,Webcam,Elgato Facecam,2,999.99,2024-02-07
+2008,C017,Hipólito Vega,hipolito.v@email.com,León,Monitor,Acer Nitro,1,4499.99,2024-02-08
+2009,C018,Isabel Chávez,isabel.c@email.com,Cancún,Laptop,ASUS TUF Gaming,1,16999.99,2024-02-09
+2010,C019,Julio Castillo,julio.c@email.com,Morelia,Teclado,Ducky One 2,1,1699.99,2024-02-10
+2011,C020,Karina Mendez,karina.m@email.com,San Luis Potosí,Mouse,Finalmouse Ultralight,1,1799.99,2024-02-11
+2012,C012,Elena Ruiz,elena.ruiz@email.com,Jalisco,Headphones,Audeze LCD-2,1,6999.99,2024-02-12
+2013,C013,Javier López,javier.l@email.com,Monterrey,Laptop,Razer Blade,1,27999.99,2024-02-13
+2014,C014,Beatriz García,beatriz.g@email.com,Guadalajara,Monitor,LG UltraWide,2,8999.99,2024-02-14
+2015,C021,Lorena Ortiz,lorena.o@email.com,Veracruz,Webcam,Logitech StreamCam,3,1199.99,2024-02-15

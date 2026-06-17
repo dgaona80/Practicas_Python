@@ -1,0 +1,16 @@
+Id_orden,Id_cliente,nombre_cliente,email,departamento,producto,subproducto,cantidad,precio,fecha
+1001,C001,Juan García,juan.garcia@email.com,CDMX,Laptop,Dell XPS 13,1,15999.99,2024-01-15
+1002,C002,María López,maria.lopez@email.com,Jalisco,Monitor,LG 27 Curved,2,3499.99,2024-01-16
+1003,C003,Carlos Rodríguez,carlos.r@email.com,Monterrey,Teclado,Logitech MX,3,1299.99,2024-01-17
+1004,C001,Juan García,juan.garcia@email.com,CDMX,Mouse,Razer Pro,1,899.99,2024-01-18
+1005,C004,Ana Martínez,ana.martinez@email.com,Guadalajara,Laptop,HP Pavilion,1,9999.99,2024-01-19
+1006,C005,Roberto Sánchez,roberto.s@email.com,Querétaro,Headphones,Sony WH-1000,2,4499.99,2024-01-20
+1007,C002,María López,maria.lopez@email.com,Jalisco,Webcam,Logitech 4K,1,1899.99,2024-01-21
+1008,C006,Patricia Gómez,patricia.g@email.com,Puebla,Laptop,MacBook Air,1,24999.99,2024-01-22
+1009,C007,David Herrera,david.herrera@email.com,León,Monitor,ASUS ProArt,1,7999.99,2024-01-23
+1010,C003,Carlos Rodríguez,carlos.r@email.com,Monterrey,Teclado,Corsair K70,2,2199.99,2024-01-24
+1011,C008,Laura Fernández,laura.f@email.com,Cancún,Mouse,Logitech MX Master,1,1599.99,2024-01-25
+1012,C004,Ana Martínez,ana.martinez@email.com,Guadalajara,Headphones,Bose QuietComfort,1,5999.99,2024-01-26
+1013,C009,Miguel Ángel,miguel.a@email.com,Morelia,Laptop,Lenovo ThinkPad,1,18999.99,2024-01-27
+1014,C005,Roberto Sánchez,roberto.s@email.com,Querétaro,Monitor,Dell UltraSharp,2,6999.99,2024-01-28
+1015,C010,Sofía Torres,sofia.torres@email.com,San Luis Potosí,Webcam,Razer Kiyo,1,1299.99,2024-01-29

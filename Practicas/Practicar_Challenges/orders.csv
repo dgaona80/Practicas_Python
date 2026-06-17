@@ -1,0 +1,86 @@
+order_id,customer_id,customer_name,customer_email,customer_city,product_name,category product,unit_price,qty,order_date,status
+O0036,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Silla Ejecutiva,Furniture,320,2,08/12/2024,pending
+O0061,C004,Diana Torres,,CDMX,Organizador Cables,Office,18.5,,25/04/2024,cancelled
+O0005,C002,Bob López,bob.lopez@hotmail.com,GDL,Librero 5 Niveles,Furniture,150,1,02/07/2024,cancelled
+O0019,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Teclado Mecánico,Tech,89.99,,28/09/2024,completed
+O0049,C004,Diana Torres,,CDMX,Silla Ejecutiva,Furniture,320,2,25/12/2024,completed
+O0023,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Audífonos BT,Tech,,5,19/08/2024,completed
+O0066,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Audífonos BT,Tech,75,5,15/09/2024,completed
+O0015,C002,Bob López,bob.lopez@hotmail.com,GDL,Librero 5 Niveles,Furniture,150,4,01/11/2024,completed
+O0062,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Lámpara LED,Office,35,1,21/08/2024,completed
+O0013,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Hub USB-C,Tech,42,5,07/08/2024,pending
+O0004,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,Hub USB-C,Tech,42,4,23/06/2024,completed
+O0050,C004,Diana Torres,diana.torres@gmail.com,CDMX,Audífonos BT,Tech,,3,05/06/2024,cancelled
+O0059,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Audífonos BT,Tech,75,4,14/08/2024,pending
+O0033,C001,Ana García,ana.garcia@gmail.com,CDMX,Lámpara LED,Office,35,5,01/02/2024,pending
+O0074,C001,,ana.garcia@gmail.com,CDMX,Librero 5 Niveles,Furniture,150,5,15/10/2024,pending
+O0008,C002,Bob López,bob.lopez@hotmail.com,GDL,"Monitor 27""",Tech,450,1,13/07/2024,completed
+O0003,C004,Diana Torres,diana.torres@gmail.com,CDMX,Hub USB-C,Tech,42,5,02/08/2024,completed
+O0051,C004,Diana Torres,diana.torres@gmail.com,CDMX,Librero 5 Niveles,Furniture,150,3,22/05/2024,cancelled
+O0017,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Librero 5 Niveles,Furniture,150,2,20/08/2024,completed
+O0001,C002,Bob López,bob.lopez@hotmail.com,GDL,Laptop Pro 15,Tech,1200,3,05/05/2024,completed
+O0067,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Audífonos BT,Tech,75,3,06/05/2024,cancelled
+O0024,C004,Diana Torres,diana.torres@gmail.com,CDMX,Lámpara LED,Office,35,2,04/01/2024,completed
+O0020,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Silla Ejecutiva,Furniture,320,2,30/01/2024,completed
+O0027,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Audífonos BT,Tech,75,1,10/12/2024,pending
+O0011,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Laptop Pro 15,Tech,1200,2,17/01/2024,cancelled
+O0072,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Webcam HD,Tech,55,5,04/11/2024,completed
+O0026,C008,Helena Cruz,hcruz@empresa.mx,CDMX,"Monitor 27""",Tech,450,4,27/07/2024,completed
+O0071,C001,Ana García,ana.garcia@gmail.com,CDMX,Lámpara LED,Office,35,4,01/09/2024,completed
+O0007,C006,,fsoto@yahoo.com,GDL,Lámpara LED,Office,35,2,26/12/2024,completed
+O0007,C006,,fsoto@yahoo.com,GDL,Lámpara LED,Office,35,2,26/12/2024,completed
+O0053,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Laptop Pro 15,Tech,1200,1,01/11/2024,completed
+O0070,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Escritorio Standing,Furniture,580,5,26/08/2024,completed
+O0023,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Audífonos BT,Tech,,5,19/08/2024,completed
+O0075,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Teclado Mecánico,Tech,89.99,1,13/05/2024,completed
+O0022,C007,Gabriel Navarro,gnavarro@mail.com,MTY,"Monitor 27""",Tech,450,5,19/12/2024,completed
+O0025,C001,Ana García,ana.garcia@gmail.com,CDMX,Escritorio Standing,Furniture,580,1,20/09/2024,completed
+O0037,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Audífonos BT,Tech,75,3,07/02/2024,completed
+O0078,C001,Ana García,ana.garcia@gmail.com,CDMX,Lámpara LED,Office,35,2,02/05/2024,completed
+O0043,C001,Ana García,ana.garcia@gmail.com,CDMX,Laptop Pro 15,Tech,1200,3,07/03/2024,pending
+O0029,C008,Helena Cruz,hcruz@empresa.mx,CDMX,"Monitor 27""",Tech,450,1,14/08/2024,cancelled
+O0003,C004,Diana Torres,diana.torres@gmail.com,CDMX,Hub USB-C,Tech,42,5,02/08/2024,completed
+O0080,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,Silla Ejecutiva,Furniture,320,1,23/10/2024,completed
+O0079,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Hub USB-C,Tech,42,3,07/07/2024,completed
+O0021,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Mouse Inalámbrico,Tech,25.5,5,05/03/2024,completed
+O0052,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Organizador Cables,Office,18.5,5,18/06/2024,completed
+O0038,C002,Bob López,bob.lopez@hotmail.com,GDL,Webcam HD,Tech,55,2,16/09/2024,completed
+O0057,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,"Monitor 27""",Tech,450,4,06/12/2024,completed
+O0060,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,Organizador Cables,Office,18.5,1,25/05/2024,pending
+O0031,C001,Ana García,ana.garcia@gmail.com,CDMX,Teclado Mecánico,Tech,89.99,4,02/01/2024,completed
+O0035,C004,Diana Torres,,CDMX,Librero 5 Niveles,Furniture,150,1,18/10/2024,completed
+O0040,C001,Ana García,ana.garcia@gmail.com,CDMX,Organizador Cables,Office,18.5,5,02/06/2024,pending
+O0018,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,Webcam HD,Tech,55,1,16/11/2024,completed
+O0042,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Webcam HD,Tech,55,4,08/05/2024,cancelled
+O0034,C003,Carlos Mendoza,carlos.m@empresa.mx,MTY,Laptop Pro 15,Tech,1200,5,11/02/2024,cancelled
+O0064,C002,Bob López,bob.lopez@hotmail.com,GDL,Librero 5 Niveles,Furniture,150,2,31/03/2024,cancelled
+O0012,C006,Fernanda Soto,fsoto@yahoo.com,GDL,"Monitor 27""",Tech,450,4,21/07/2024,pending
+O0028,C006,Fernanda Soto,fsoto@yahoo.com,GDL,Mouse Inalámbrico,Tech,25.5,2,08/04/2024,completed
+O0010,C004,Diana Torres,diana.torres@gmail.com,CDMX,Teclado Mecánico,Tech,89.99,4,13/07/2024,completed
+O0046,C001,Ana García,ana.garcia@gmail.com,CDMX,Escritorio Standing,Furniture,580,2,15/12/2024,completed
+O0030,C001,Ana García,ana.garcia@gmail.com,CDMX,Mouse Inalámbrico,Tech,25.5,2,26/03/2024,completed
+O0068,C004,Diana Torres,diana.torres@gmail.com,CDMX,Silla Ejecutiva,Furniture,320,4,09/02/2024,pending
+O0058,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Librero 5 Niveles,Furniture,150,5,01/01/2024,completed
+O0041,C002,Bob López,bob.lopez@hotmail.com,GDL,Hub USB-C,Tech,42,5,20/03/2024,completed
+O0047,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Lámpara LED,Office,35,2,01/05/2024,cancelled
+O0056,C002,Bob López,bob.lopez@hotmail.com,GDL,Hub USB-C,Tech,42,3,16/09/2024,completed
+O0013,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Hub USB-C,Tech,42,5,07/08/2024,pending
+O0063,C007,Gabriel Navarro,,MTY,Audífonos BT,Tech,75,4,04/05/2024,completed
+O0054,C002,,bob.lopez@hotmail.com,GDL,Librero 5 Niveles,Furniture,150,5,07/04/2024,completed
+O0002,C002,Bob López,bob.lopez@hotmail.com,GDL,Lámpara LED,Office,35,4,17/01/2024,completed
+O0044,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Webcam HD,Tech,55,1,27/02/2024,completed
+O0065,C004,Diana Torres,diana.torres@gmail.com,CDMX,Mouse Inalámbrico,Tech,25.5,4,09/03/2024,cancelled
+O0009,C006,Fernanda Soto,fsoto@yahoo.com,GDL,"Monitor 27""",Tech,450,3,25/12/2024,pending
+O0048,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Laptop Pro 15,Tech,1200,2,19/06/2024,cancelled
+O0055,C004,Diana Torres,diana.torres@gmail.com,CDMX,Escritorio Standing,Furniture,580,4,05/02/2024,pending
+O0069,C002,Bob López,bob.lopez@hotmail.com,GDL,Teclado Mecánico,Tech,89.99,2,28/04/2024,completed
+O0045,C001,Ana García,ana.garcia@gmail.com,CDMX,Escritorio Standing,Furniture,580,5,09/10/2024,completed
+O0006,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Webcam HD,Tech,55,1,12/07/2024,completed
+O0073,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Escritorio Standing,Furniture,580,4,25/03/2024,cancelled
+O0016,C001,Ana García,ana.garcia@gmail.com,CDMX,Organizador Cables,Office,18.5,1,15/12/2024,pending
+O0077,C006,Fernanda Soto,fsoto@yahoo.com,GDL,"Monitor 27""",Tech,450,1,29/11/2024,completed
+O0039,C004,Diana Torres,diana.torres@gmail.com,CDMX,Escritorio Standing,Furniture,580,3,21/03/2024,completed
+O0014,C008,Helena Cruz,hcruz@empresa.mx,CDMX,Mouse Inalámbrico,Tech,25.5,1,26/02/2024,completed
+O0032,C007,Gabriel Navarro,gnavarro@mail.com,MTY,Hub USB-C,Tech,42,5,04/12/2024,pending
+O0013,C005,Eduardo Ruiz,e.ruiz@corp.com,PUE,Hub USB-C,Tech,42,5,07/08/2024,pending
+O0076,C007,Gabriel Navarro,,MTY,Silla Ejecutiva,Furniture,320,4,09/05/2024,cancelled

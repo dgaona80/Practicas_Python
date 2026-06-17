@@ -1,0 +1,6 @@
+id_producto,nombre,categoria,precio,stock,estado
+1,camiseta basica,Ropa,9.99,25,activo
+2,zapatos running,Calzado,45,0,inactivo
+3,???,Ropa,,14,activo
+4,Laptop HP,Electrónica,599.99,3,ACTIVO
+5,camiseta basica,Ropa,9.99,25,activo

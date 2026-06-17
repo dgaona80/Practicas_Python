@@ -1,0 +1,16 @@
+Id_orden,Id_cliente,nombre_cliente,email,departamento,producto,subproducto,cantidad,precio,fecha
+3001,C022,Manuel Estrada,manuel.e@email.com,CDMX,Laptop,MSI GS66 Stealth,1,22999.99,2024-03-01
+3002,C023,Nora Salinas,nora.s@email.com,Jalisco,Monitor,PG 279Q,1,5499.99,2024-03-02
+3003,C024,Óscar Peña,oscar.p@email.com,Monterrey,Teclado,Varmilo VA87M,1,2299.99,2024-03-03
+3004,C025,Paquita Reyes,paquita.r@email.com,Guadalajara,Mouse,Glorious Model O,2,799.99,2024-03-04
+3005,C026,Queta Navarro,queta.n@email.com,Querétaro,Laptop,Alienware x17,1,32999.99,2024-03-05
+3006,C027,Ramón Vázquez,ramon.v@email.com,Puebla,Headphones,Sennheiser HD660S,1,3999.99,2024-03-06
+3007,C028,Sandra Quiroz,sandra.q@email.com,León,Webcam,Obsbot Tail,1,2499.99,2024-03-07
+3008,C022,Manuel Estrada,manuel.e@email.com,CDMX,Monitor,ROG Swift PG279Q,1,6999.99,2024-03-08
+3009,C029,Tomás Aguilar,tomas.a@email.com,Cancún,Laptop,Surface Laptop 5,1,19999.99,2024-03-09
+3010,C030,Úrsula Franco,ursula.f@email.com,Morelia,Teclado,Keychron K3 Pro,1,1299.99,2024-03-10
+3011,C023,Nora Salinas,nora.s@email.com,Jalisco,Mouse,Basilisk Ultimate,1,1699.99,2024-03-11
+3012,C024,Óscar Peña,oscar.p@email.com,Monterrey,Headphones,Focal Clear,1,7999.99,2024-03-12
+3013,C031,Valentina Cruz,valentina.c@email.com,San Luis Potosí,Laptop,Google Pixelbook,1,21999.99,2024-03-13
+3014,C025,Paquita Reyes,paquita.r@email.com,Guadalajara,Monitor,IPS 27 Pro,2,4199.99,2024-03-14
+3015,C032,William Santos,william.s@email.com,Veracruz,Webcam,Microsoft LifeCam,1,599.99,2024-03-15

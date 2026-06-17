@@ -1,0 +1,6 @@
+Id,Producto,Precio,Cantidad,Fecha_Registro,Categoría
+0,Camisa,25,1,2023-01-01,ropa
+1,Zapatos,50,2,05/02/2023,calzado
+2,Pantalón,30,1,2023-03-10,ropa
+3,Zapatos,80,4,"abril 4, 2023",calzado
+4,Camisa,100,5,2023-05-01,ropa
