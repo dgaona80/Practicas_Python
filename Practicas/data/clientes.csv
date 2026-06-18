@@ -1,0 +1,11 @@
+,Cliente,Edad,Gasto,Ciudad
+0,Ana,28.0,15.5,Madrid
+1,Luis,35.0,200.0,Barcelona
+2,Carlos,,300,Madrid
+3,Lucía,42.0,250.0,Valencia
+4,,29.0,180.0,Madrid
+5,Luis,35.0,,Barcelona
+6,Ana,,150.5,Madrid
+7,Carlos,41.0,300.0,
+8,Lucía,42.0,250.0,Valencia
+9,Luis,35.0,200.0,Barcelona
